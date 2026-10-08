@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Dados brutos (ver data/README.md)
+data/*.csv
+data/*.xlsx
+
+# Modelos treinados
+*.pkl
+*.joblib
+
+# Sistema
+.DS_Store
+Thumbs.db
+resultados.zip
